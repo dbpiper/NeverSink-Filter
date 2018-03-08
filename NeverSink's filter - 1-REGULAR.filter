@@ -184,6 +184,22 @@
 # [[0100]] OVERRIDE AREA 1 - Override ALL rules here
 #===============================================================================================================
 
+Show # A blue border for regal recipe items
+    ItemLevel >= 75
+	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
+    Rarity Rare
+    SetBorderColor 30 144 255
+	SetBackgroundColor 220 255 40 150
+	
+
+Show # A Yellow border for Chaos recipe items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
+    Rarity Rare
+    SetBorderColor 255 200 0
+	SetBackgroundColor 220 255 40 150
+
 #===============================================================================================================
 # [[0200]] 6 LINKS
 #===============================================================================================================
@@ -1093,7 +1109,7 @@ Show # %TB-Gavels %D3 $Recipe->Chisel->20
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong Leveling highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D2 $Recipe->Chisel->15
+Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 17
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1102,7 +1118,7 @@ Show # %TB-Gavels %D2 $Recipe->Chisel->15
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D2 $Recipe->Chisel->15
+Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 14
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1111,7 +1127,7 @@ Show # %TB-Gavels %D2 $Recipe->Chisel->15
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D1 $Recipe->Chisel
+Hide # %TB-Gavels %D1 $Recipe->Chisel
 	Corrupted False
 	Quality > 11
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1120,7 +1136,7 @@ Show # %TB-Gavels %D1 $Recipe->Chisel
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D1 $Recipe->Chisel
+Hide # %TB-Gavels %D1 $Recipe->Chisel
 	Corrupted False
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 	Rarity Normal
