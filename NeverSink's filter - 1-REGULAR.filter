@@ -190,8 +190,8 @@ Show # A blue border for regal recipe items
     Rarity Rare
     Identified False
 	SetFontSize 38
-    SetBorderColor 30 144 255
-	SetBackgroundColor 220 255 40 150
+	SetBorderColor 30 144 255
+	SetBackgroundColor 200 160 200 150
 	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 Show # A Yellow border for Chaos recipe items
@@ -202,7 +202,7 @@ Show # A Yellow border for Chaos recipe items
     Identified False
 	SetFontSize 38
     SetBorderColor 255 200 0
-	SetBackgroundColor 220 255 40 150
+	SetBackgroundColor 150 255 0 150
 	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 #===============================================================================================================
