@@ -1,4 +1,19 @@
 ----------------------------------
+NeverSink's itemfilter - version 5.63 - Necromancy nets and economy adjustments
+----------------------------------
+
+- Fixed necromancy net bug
+- Adjusted net apperance
+- Retiered all uniques to better match the economy
+- Retiered all divination cards to better match the economy
+
+----------------------------------
+NeverSink's itemfilter - version 5.62 - Economy adjustments
+----------------------------------
+
+- Necromancy nets added
+
+----------------------------------
 NeverSink's itemfilter - version 5.61 - Hotfix ELDER maps
 ----------------------------------
 
