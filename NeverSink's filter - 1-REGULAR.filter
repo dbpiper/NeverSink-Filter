@@ -184,101 +184,6 @@
 # [[0100]] OVERRIDE AREA 1 - Override ALL rules here
 #===============================================================================================================
 
-
-#===============================================================================================================
-# Regal Recipe
-#===============================================================================================================
-
-Show # Regal Recipe Rare Items
-    ItemLevel >= 75
-	Class "Rings" "Amulets"
-    Rarity Rare
-    Identified False
-	SetFontSize 42
-	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-
-Show # Regal Recipe Small Items
-    ItemLevel >= 75
-	Class "Belts"
-    Rarity Rare
-    Identified False
-	SetFontSize 38
-	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-	
-Show # Regal Recipe Medium Items
-    ItemLevel >= 75
-	Class "Gloves" "Boots" "Helmets" "Belts"
-    Rarity Rare
-    Identified False
-	SetFontSize 36
-	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-	
-Show # Regal Recipe Large Items
-    ItemLevel >= 75
-	Class "Two Hand" "Staves" "Body Armour"
-    Rarity Rare
-    Identified False
-	SetFontSize 32
-	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-
-#===============================================================================================================
-# Chaos Recipe
-#===============================================================================================================
-
-
-Show # Chaos Recipe Rare Items
-    ItemLevel >= 60
-    ItemLevel <= 74
-	Class "Rings" "Amulets"
-    Rarity Rare
-    Identified False
-	SetFontSize 42
-    SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-
-Show # Chaos Recipe Small Items
-    ItemLevel >= 60
-    ItemLevel <= 74
-	Class "Belts"
-    Rarity Rare
-    Identified False
-	SetFontSize 38
-    SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-	
-Show # Chaos Recipe Medium Items
-    ItemLevel >= 60
-    ItemLevel <= 74
-	Class "Gloves" "Boots" "Helmets" "Belts"
-    Rarity Rare
-    Identified False
-	SetFontSize 36
-    SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-
-Show # Chaos Recipe Large Items
-    ItemLevel >= 60
-    ItemLevel <= 74
-	Class "Two Hand" "Staves" "Body Armour"
-    Rarity Rare
-    Identified False
-	SetFontSize 32
-    SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
-
-
 #===============================================================================================================
 # [[0200]] 6 LINKS
 #===============================================================================================================
@@ -695,6 +600,104 @@ Show # $Rare->Elder->T3 $x->ShaperElder
 	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
 	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 50 130 165        # BACKGROUND:	 ShaperElder
+
+#===============================================================================================================
+# Override Area Less Priority than 6-Link and Shaper/Elder
+#===============================================================================================================
+
+
+#===============================================================================================================
+# Regal Recipe
+#===============================================================================================================
+
+Show # Regal Recipe Rare Items
+    ItemLevel >= 75
+	Class "Rings" "Amulets"
+    Rarity Rare
+    Identified False
+	SetFontSize 42
+	SetBorderColor 30 144 255
+	SetBackgroundColor 200 160 200 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+
+Show # Regal Recipe Small Items
+    ItemLevel >= 75
+	Class "Belts"
+    Rarity Rare
+    Identified False
+	SetFontSize 38
+	SetBorderColor 30 144 255
+	SetBackgroundColor 200 160 200 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+	
+Show # Regal Recipe Medium Items
+    ItemLevel >= 75
+	Class "Gloves" "Boots" "Helmets" "Belts"
+    Rarity Rare
+    Identified False
+	SetFontSize 36
+	SetBorderColor 30 144 255
+	SetBackgroundColor 200 160 200 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+	
+Show # Regal Recipe Large Items
+    ItemLevel >= 75
+	Class "Two Hand" "Staves" "Body Armour"
+    Rarity Rare
+    Identified False
+	SetFontSize 32
+	SetBorderColor 30 144 255
+	SetBackgroundColor 200 160 200 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+
+#===============================================================================================================
+# Chaos Recipe
+#===============================================================================================================
+
+Show # Chaos Recipe Rare Items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Rings" "Amulets"
+    Rarity Rare
+    Identified False
+	SetFontSize 42
+    SetBorderColor 255 200 0
+	SetBackgroundColor 150 255 0 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+
+Show # Chaos Recipe Small Items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Belts"
+    Rarity Rare
+    Identified False
+	SetFontSize 38
+    SetBorderColor 255 200 0
+	SetBackgroundColor 150 255 0 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+	
+Show # Chaos Recipe Medium Items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Gloves" "Boots" "Helmets" "Belts"
+    Rarity Rare
+    Identified False
+	SetFontSize 36
+    SetBorderColor 255 200 0
+	SetBackgroundColor 150 255 0 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+
+Show # Chaos Recipe Large Items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Two Hand" "Staves" "Body Armour"
+    Rarity Rare
+    Identified False
+	SetFontSize 32
+    SetBorderColor 255 200 0
+	SetBackgroundColor 150 255 0 150
+	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
+
 
 #===============================================================================================================
 # [[0500]] Recipes, Magic and Normal items (endgame!)
