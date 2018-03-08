@@ -184,6 +184,24 @@
 # [[0100]] OVERRIDE AREA 1 - Override ALL rules here
 #===============================================================================================================
 
+	
+Show # A blue border for regal recipe items
+    ItemLevel >= 75
+	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
+    Rarity Rare
+    SetBorderColor 30 144 255
+	SetBackgroundColor 220 255 40 150
+	
+
+Show # A Yellow border for Chaos recipe items
+    ItemLevel >= 60
+    ItemLevel <= 74
+	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
+    Rarity Rare
+    SetBorderColor 255 200 0
+	SetBackgroundColor 220 255 40 150
+	
+	
 #===============================================================================================================
 # [[0200]] 6 LINKS
 #===============================================================================================================
@@ -609,8 +627,8 @@ Show # $Rare->Elder->T3 $x->ShaperElder
 #   [0501] 5-Linked items
 #------------------------------------
 # Very useful at the start of the league. Otherwise often trash. Still, highlight material.
-# There’s a lot of exceptions we can introduce here, such as 6S, high value bases, but this
-# Is a rare occurrence, so we won’t be doing it for performance reasons.
+# Thereâ€™s a lot of exceptions we can introduce here, such as 6S, high value bases, but this
+# Is a rare occurrence, so we wonâ€™t be doing it for performance reasons.
 
 Show # $linked->5L %D4
 	LinkedSockets 5
@@ -1093,7 +1111,7 @@ Show # %TB-Gavels %D3 $Recipe->Chisel->20
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong Leveling highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D2 $Recipe->Chisel->15
+Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 17
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1102,7 +1120,7 @@ Show # %TB-Gavels %D2 $Recipe->Chisel->15
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Show # %TB-Gavels %D2 $Recipe->Chisel->15
+Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 14
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -2917,7 +2935,7 @@ Show # $Currency->Harbinger->T2 %TB-Currency-Harbinger-ShardsT2 %H4
 
 Show #$Currency->Net->T1
 	Class Currency
-	BaseType "Necromancer"
+	BaseType "Necromancy Net"
 	SetFontSize 45
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
