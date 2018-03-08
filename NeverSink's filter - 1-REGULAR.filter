@@ -188,17 +188,20 @@ Show # A blue border for regal recipe items
     ItemLevel >= 75
 	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
     Rarity Rare
+	SetFontSize 45
     SetBorderColor 30 144 255
 	SetBackgroundColor 220 255 40 150
-	
+	PlayAlertSound 6 300 # DROPSOUND: T1 Drop
 
 Show # A Yellow border for Chaos recipe items
     ItemLevel >= 60
     ItemLevel <= 74
 	Class "Two Hand" "Staves" "Body Armour" "Gloves" "Boots" "Helmets" "Belts" "Rings" "Amulets"
     Rarity Rare
+	SetFontSize 45
     SetBorderColor 255 200 0
 	SetBackgroundColor 220 255 40 150
+	PlayAlertSound 6 300 # DROPSOUND: T1 Drop
 
 #===============================================================================================================
 # [[0200]] 6 LINKS
