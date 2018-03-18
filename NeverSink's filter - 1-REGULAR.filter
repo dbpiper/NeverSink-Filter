@@ -1059,7 +1059,7 @@ Show # %TB-Gavels %D3 $Recipe->Chisel->20
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong Leveling highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Hide # %TB-Gavels %D2 $Recipe->Chisel->15
+Show # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 17
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1068,7 +1068,7 @@ Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Hide # %TB-Gavels %D2 $Recipe->Chisel->15
+Show # %TB-Gavels %D2 $Recipe->Chisel->15
 	Corrupted False
 	Quality > 14
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1077,7 +1077,7 @@ Hide # %TB-Gavels %D2 $Recipe->Chisel->15
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Hide # %TB-Gavels %D1 $Recipe->Chisel
+Show # %TB-Gavels %D1 $Recipe->Chisel
 	Corrupted False
 	Quality > 11
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1086,7 +1086,7 @@ Hide # %TB-Gavels %D1 $Recipe->Chisel
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
 
-Hide # %TB-Gavels %D1 $Recipe->Chisel
+Show # %TB-Gavels %D1 $Recipe->Chisel
 	Corrupted False
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 	Rarity Normal
