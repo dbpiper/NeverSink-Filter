@@ -471,7 +471,6 @@ Show # Regal Recipe Small Items
 	SetFontSize 38
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 	
 Show # Regal Recipe Medium Items
     ItemLevel >= 75
@@ -481,7 +480,6 @@ Show # Regal Recipe Medium Items
 	SetFontSize 36
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 	
 Show # Regal Recipe Large Items
     ItemLevel >= 75
@@ -491,7 +489,6 @@ Show # Regal Recipe Large Items
 	SetFontSize 32
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 #===============================================================================================================
 # Chaos Recipe
@@ -517,7 +514,6 @@ Show # Chaos Recipe Small Items
 	SetFontSize 38
     SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 	
 Show # Chaos Recipe Medium Items
     ItemLevel >= 60
@@ -528,7 +524,6 @@ Show # Chaos Recipe Medium Items
 	SetFontSize 36
     SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 Show # Chaos Recipe Large Items
     ItemLevel >= 60
@@ -539,7 +534,6 @@ Show # Chaos Recipe Large Items
 	SetFontSize 32
     SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 150
-	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 
 #===============================================================================================================
