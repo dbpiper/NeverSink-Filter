@@ -1041,6 +1041,7 @@ Hide # $x->Warband->ele %TC-Ele-Warband-Bases
 	Rarity Magic
 	SetFontSize 34
 	SetBorderColor 0 240 190 240
+	DisableDropSound True
 
 Hide # $x->Warband->chaos %TC-Chaos-Warband-Bases
 	Corrupted False
@@ -1050,6 +1051,7 @@ Hide # $x->Warband->chaos %TC-Chaos-Warband-Bases
 	Rarity Magic
 	SetFontSize 34
 	SetBorderColor 0 240 190 240
+	DisableDropSound True
 
 #------------------------------------
 #   [0514] Remaining crafting rules - add your own bases here!
@@ -1168,6 +1170,7 @@ Hide # %H1 $Recipe->RGB->Large
 	Rarity < Rare
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
+	DisableDropSound True
 
 Hide # %H1 $Recipe->RGB
 	SocketGroup RGB
@@ -1175,6 +1178,7 @@ Hide # %H1 $Recipe->RGB
 	Rarity < Rare
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 75 75 75 255      # BACKGROUND:	 Recipes
+	DisableDropSound True
 
 #------------------------------------
 #   [0519] Endgame-start 4-links
@@ -1271,6 +1275,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 	SetFontSize 18
 	SetBorderColor 0 0 0 100             # BORDERCOLOR:	 Cosmetic: Junk
 	SetBackgroundColor 0 0 0 165         # BACKGROUND:	 Leveling, low alch bases
+	DisableDropSound True
 
 #===============================================================================================================
 # [[0700]] Currency - PART 1 - Common currency
@@ -1293,6 +1298,15 @@ Show # $Currency->Low->T1 %H5 %TB-Currency-T4
 	SetBorderColor 213 159 100 200       # BORDERCOLOR:	 T1 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 
+Hide # $Currency->Low->T3 %H2 %TB-Currency-T6
+	Class Currency
+	BaseType "Armourer's Scrap" "Blacksmith's Whetstone"
+	SetFontSize 40
+	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
+	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
+	DisableDropSound True
+	
 Show # $Currency->Low->T2 %H4 %TB-Currency-T5
 	Class Currency
 	BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
@@ -1301,13 +1315,14 @@ Show # $Currency->Low->T2 %H4 %TB-Currency-T5
 	SetBorderColor 190 178 135 110       # BORDERCOLOR:	 T2 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 
-Show # $Currency->Scroll->Portal %RF1 %H3 %TB-Currency-T7
+Hide # $Currency->Scroll->Portal %RF1 %H3 %TB-Currency-T7
 	Class Currency
 	BaseType "Portal Scroll"
 	SetFontSize 36
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 30 50 80 255          # BORDERCOLOR: T3 Portal scroll
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
+	DisableDropSound True
 
 Show # $Currency->Low->T3 %H2 %TB-Currency-T6
 	Class Currency
@@ -1317,13 +1332,14 @@ Show # $Currency->Low->T3 %H2 %TB-Currency-T6
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 
-Show # $Currency->Scroll->Portal %RF1 %H2 %TB-Currency-T8
+Hide # $Currency->Scroll->Portal %RF1 %H2 %TB-Currency-T8
 	Class Currency
 	BaseType "Scroll of Wisdom"
 	SetFontSize 36
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
+	DisableDropSound True
 
 #===============================================================================================================
 # [[0800]] OVERRIDE AREA 2 - Override the default rare rulesets here
@@ -2399,6 +2415,7 @@ Hide # $Rare->Regal $Rare->Hidden $Rare->Small  Hide remaining rare endgame item
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
+	DisableDropSound True
 
 Hide # $Rare->Hidden $Rare->Small Hide remaining rare endgame items (note: on the regular version this line never happens) %TC-Rareable-Junkable-Expanded
 	Width <= 1
@@ -2409,7 +2426,8 @@ Hide # $Rare->Hidden $Rare->Small Hide remaining rare endgame items (note: on th
 	SetFontSize 24
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
-
+	DisableDropSound True
+	
 Hide # $Rare->Regal $Rare->Hidden $Rare->Small Hide remaining rare endgame items (note: on the regular version this line never happens) %TC-Rareable-Junkable-Expanded
 	Width <= 2
 	Height <= 2
@@ -2420,7 +2438,8 @@ Hide # $Rare->Regal $Rare->Hidden $Rare->Small Hide remaining rare endgame items
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
-
+	DisableDropSound True
+	
 Hide # $Rare->Hidden $Rare->Small Hide remaining rare endgame items (note: on the regular version this line never happens) %TC-Rareable-Junkable-Expanded
 	Width <= 2
 	Height <= 2
@@ -2430,6 +2449,7 @@ Hide # $Rare->Hidden $Rare->Small Hide remaining rare endgame items (note: on th
 	SetFontSize 24
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
+	DisableDropSound True
 
 Hide # $Rare->Regal $Rare->Hidden Hide remaining rare endgame items (note: on the regular version this line never happens) %TC-Rareable-Junkable-Expanded
 	ItemLevel >= 75
@@ -2439,6 +2459,7 @@ Hide # $Rare->Regal $Rare->Hidden Hide remaining rare endgame items (note: on th
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 0 0 0 100             # BORDERCOLOR:	 Cosmetic: Junk
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
+	DisableDropSound True
 
 Hide # $Rare->Hidden Hide remaining rare endgame items (note: on the regular version this line never happens) %TC-Rareable-Junkable-Expanded
 	ItemLevel >= 65
@@ -2447,6 +2468,7 @@ Hide # $Rare->Hidden Hide remaining rare endgame items (note: on the regular ver
 	SetFontSize 20
 	SetBorderColor 0 0 0 100             # BORDERCOLOR:	 Cosmetic: Junk
 	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden
+	DisableDropSound True
 
 #===============================================================================================================
 # [[1100]] OVERRIDE AREA 3 - Override Map, Gem and Flask drops here
@@ -2547,6 +2569,7 @@ Hide #
 	Rarity <= Magic
 	SetFontSize 20
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	DisableDropSound True
 
 #===============================================================================================================
 # [[1500]] Maps, fragments and labyrinth items
@@ -3458,6 +3481,7 @@ Hide # lvl
 	BaseType Small Medium Large Greater Grand
 	SetFontSize 20
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	DisableDropSound True
 
 Hide # lvl
 	Quality = 0
@@ -3466,6 +3490,7 @@ Hide # lvl
 	BaseType Giant Colossal Sacred
 	SetFontSize 20
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	DisableDropSound True
 
 Hide # lvl
 	Quality = 0
@@ -3474,6 +3499,7 @@ Hide # lvl
 	BaseType Hallowed Sanctified Divine Eternal
 	SetFontSize 20
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	DisableDropSound True
 
 #------------------------------------
 #   [2302] Hybrid flasks (normal)
@@ -4870,6 +4896,7 @@ Hide # %H1
 	SetTextColor 200 200 200 210         # TEXTCOLOR:	 Early Leveling: Small bases
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Highlight - low maps, low priority items
+	DisableDropSound True
 
 Show # %D2
 	Width <= 1
@@ -4953,6 +4980,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 	SetFontSize 26
 	SetBorderColor 0 0 0 150             # BORDERCOLOR:	 Cosmetic: Leveling-Trash
 	SetBackgroundColor 0 0 0 165         # BACKGROUND:	 Leveling, low alch bases
+	DisableDropSound True
 
 #===============================================================================================================
 # [[3000]] CATCHALL - if you see pink items - send me a mail please - should never happen
