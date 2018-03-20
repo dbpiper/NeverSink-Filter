@@ -3039,7 +3039,7 @@ Show #$Currency->Net->T1 %H4
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	DisableDropSound True
 
-Show #$Currency->Net->T2 %H3
+Hide #$Currency->Net->T2 %H3
 	Class Currency
 	BaseType "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
 	SetFontSize 42
@@ -3048,7 +3048,7 @@ Show #$Currency->Net->T2 %H3
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	DisableDropSound True
 
-Show #$Currency->Net->T3 %H3
+Hide #$Currency->Net->T3 %H3
 	Class Currency
 	BaseType "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net"
 	SetFontSize 42
@@ -3057,7 +3057,7 @@ Show #$Currency->Net->T3 %H3
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	DisableDropSound True
 
-Show #$Currency->Net->T4 %H3
+Hide #$Currency->Net->T4 %H3
 	Class Currency
 	BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net"
 	SetFontSize 42
