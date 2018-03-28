@@ -734,7 +734,7 @@ Show # Regal Recipe Rare Items
     Identified False
 	SetFontSize 42
 	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
+	SetBackgroundColor 250 100 200 200
 	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 Show # Regal Recipe Small Items
@@ -776,7 +776,7 @@ Show # Chaos Recipe Rare Items
     Identified False
 	SetFontSize 42
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
+	SetBackgroundColor 80 255 0 200
 	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 Show # Chaos Recipe Small Items
