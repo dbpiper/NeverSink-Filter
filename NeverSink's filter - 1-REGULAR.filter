@@ -745,24 +745,26 @@ Show # Regal Recipe Small Items
 	SetFontSize 40
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 150
+	DisableDropSound True
 	
 Show # Regal Recipe Medium Items
     ItemLevel >= 75
 	Class "Gloves" "Boots" "Helmets" "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 36
+	SetFontSize 35
 	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 135
+	SetBackgroundColor 200 160 200 120
+	DisableDropSound True
 	
 Show # Regal Recipe Large Items
     ItemLevel >= 75
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 32
-	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 122
+	SetFontSize 31
+	SetBackgroundColor 200 160 200 108
+	DisableDropSound True
 
 #===============================================================================================================
 # Chaos Recipe
@@ -788,6 +790,7 @@ Show # Chaos Recipe Small Items
 	SetFontSize 40
     SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 150
+	DisableDropSound True
 	
 Show # Chaos Recipe Medium Items
     ItemLevel >= 60
@@ -795,9 +798,10 @@ Show # Chaos Recipe Medium Items
 	Class "Gloves" "Boots" "Helmets" "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 36
+	SetFontSize 35
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 135
+	SetBackgroundColor 150 255 0 120
+	DisableDropSound True
 
 Show # Chaos Recipe Large Items
     ItemLevel >= 60
@@ -805,9 +809,8 @@ Show # Chaos Recipe Large Items
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 32
-    SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 122
+	SetFontSize 31
+	SetBackgroundColor 150 255 0 108
 	
 #------------------------------------
 #   [0508] FLASKS (Endgame rules)
