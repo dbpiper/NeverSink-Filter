@@ -742,7 +742,7 @@ Show # Regal Recipe Small Items
 	Class "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 38
+	SetFontSize 40
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 150
 	
@@ -753,7 +753,7 @@ Show # Regal Recipe Medium Items
     Identified False
 	SetFontSize 36
 	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
+	SetBackgroundColor 200 160 200 135
 	
 Show # Regal Recipe Large Items
     ItemLevel >= 75
@@ -762,7 +762,7 @@ Show # Regal Recipe Large Items
     Identified False
 	SetFontSize 32
 	SetBorderColor 30 144 255
-	SetBackgroundColor 200 160 200 150
+	SetBackgroundColor 200 160 200 122
 
 #===============================================================================================================
 # Chaos Recipe
@@ -785,7 +785,7 @@ Show # Chaos Recipe Small Items
 	Class "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 38
+	SetFontSize 40
     SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 150
 	
@@ -797,7 +797,7 @@ Show # Chaos Recipe Medium Items
     Identified False
 	SetFontSize 36
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
+	SetBackgroundColor 150 255 0 135
 
 Show # Chaos Recipe Large Items
     ItemLevel >= 60
@@ -807,7 +807,7 @@ Show # Chaos Recipe Large Items
     Identified False
 	SetFontSize 32
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 150
+	SetBackgroundColor 150 255 0 122
 	
 #------------------------------------
 #   [0508] FLASKS (Endgame rules)
