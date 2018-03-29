@@ -752,7 +752,7 @@ Show # Regal Recipe Medium Items
 	Class "Gloves" "Boots" "Helmets" "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 35
+	SetFontSize 37
 	SetBorderColor 30 144 255
 	SetBackgroundColor 200 160 200 120
 	DisableDropSound True
@@ -762,7 +762,7 @@ Show # Regal Recipe Large Items
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 31
+	SetFontSize 33
 	SetBackgroundColor 200 160 200 108
 	DisableDropSound True
 
@@ -798,7 +798,7 @@ Show # Chaos Recipe Medium Items
 	Class "Gloves" "Boots" "Helmets" "Belts"
     Rarity Rare
     Identified False
-	SetFontSize 35
+	SetFontSize 37
     SetBorderColor 255 200 0
 	SetBackgroundColor 86 85 149 200
 	DisableDropSound True
@@ -809,7 +809,7 @@ Show # Chaos Recipe Large Items
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 31
+	SetFontSize 33
 	SetBackgroundColor 86 85 149 170
 	DisableDropSound True
 	
