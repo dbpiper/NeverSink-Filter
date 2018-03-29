@@ -778,7 +778,7 @@ Show # Chaos Recipe Rare Items
     Identified False
 	SetFontSize 42
     SetBorderColor 255 200 0
-	SetBackgroundColor 80 255 0 200
+	SetBackgroundColor 40 106 117 200
 	PlayAlertSound 2 300 # DROPSOUND: Value Drop: Currency, fragments
 
 Show # Chaos Recipe Small Items
@@ -789,7 +789,7 @@ Show # Chaos Recipe Small Items
     Identified False
 	SetFontSize 40
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 180
+	SetBackgroundColor 138 136 144 180
 	DisableDropSound True
 	
 Show # Chaos Recipe Medium Items
@@ -800,7 +800,7 @@ Show # Chaos Recipe Medium Items
     Identified False
 	SetFontSize 35
     SetBorderColor 255 200 0
-	SetBackgroundColor 150 255 0 120
+	SetBackgroundColor 138 136 144 120
 	DisableDropSound True
 
 Show # Chaos Recipe Large Items
@@ -810,7 +810,8 @@ Show # Chaos Recipe Large Items
     Rarity Rare
     Identified False
 	SetFontSize 31
-	SetBackgroundColor 150 255 0 108
+	SetBackgroundColor 138 136 144 85
+	DisableDropSound True
 	
 #------------------------------------
 #   [0508] FLASKS (Endgame rules)
