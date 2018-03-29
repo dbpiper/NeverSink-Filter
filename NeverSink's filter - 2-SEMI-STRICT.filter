@@ -812,7 +812,6 @@ Show # Chaos Recipe Large Items
     Rarity Rare
     Identified False
 	SetFontSize 31
-    SetBorderColor 255 200 0
 	SetBackgroundColor 150 255 0 108
 	DisableDropSound True
 
