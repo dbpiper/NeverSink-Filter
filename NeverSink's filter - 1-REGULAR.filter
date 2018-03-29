@@ -762,7 +762,7 @@ Show # Regal Recipe Large Items
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 33
+	SetFontSize 32
 	SetBackgroundColor 200 160 200 108
 	DisableDropSound True
 
@@ -809,7 +809,7 @@ Show # Chaos Recipe Large Items
 	Class "Two Hand" "Staves" "Body Armour"
     Rarity Rare
     Identified False
-	SetFontSize 33
+	SetFontSize 32
 	SetBackgroundColor 86 125 149 170
 	DisableDropSound True
 	
