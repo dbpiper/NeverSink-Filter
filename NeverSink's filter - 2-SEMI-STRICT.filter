@@ -1304,7 +1304,7 @@ Show # $Currency->Low->T1 %H5 %TB-Currency-T4
 
 Hide # Low Value Currency
 	Class Currency
-	BaseType "Armourer's Scrap" "Orb of Transmutation"
+	BaseType "Armourer's Scrap" "Orb of Transmutation" "Blacksmith's Whetstone"
 	SetFontSize 40
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
